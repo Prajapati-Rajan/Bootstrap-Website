@@ -1,0 +1,21 @@
+.animate{
+    animation-name: first;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.accordion-button::after {
+    margin-left:0 !important;
+}
+
+@keyframes first{
+    0%{
+       position: relative;
+       bottom: 0px;
+    }
+    100%{
+       position: relative;
+       bottom: 20px;
+    }
+}
